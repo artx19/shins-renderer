@@ -3,7 +3,7 @@
 const path           = require( 'path' ),
       shell          = require( 'shelljs' ),
       tendershinsDir = path.dirname( require.resolve( 'tendershins' ) ),
-      Tendershins    = require( tendershinsDir + '/src/tendershins' );
+      Tendershins    = require( tendershinsDir );
 
 if ( process.argv.length < 4 ) {
     console.error( 'Missing argument, usage: tendershins <source_path> <target_path> [logo_path]' );
