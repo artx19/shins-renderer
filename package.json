@@ -1,6 +1,6 @@
 {
   "name": "tendershins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Render OpenAPI / Swagger / AsyncAPI / Semoasa definition to Slate HTML.",
   "main": "src/tendershins.js",
   "bin": {
