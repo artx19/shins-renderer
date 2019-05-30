@@ -1,6 +1,8 @@
 {
   "name": "tendershins",
   "version": "1.0.0",
+  "description": "Render OpenAPI / Swagger / AsyncAPI / Semoasa definition to Slate HTML.",
+  "main": "src/tendershins.js",
   "bin": {
     "tendershins": "./bin/tendershins"
   },
@@ -10,5 +12,27 @@
     "shelljs": "^0.8.2",
     "shins": "^2.3.2-0",
     "widdershins": "^3.6.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artx19/tendershins.git"
+  },
+  "keywords": [
+    "slate",
+    "shins",
+    "OpenAPI",
+    "Swagger",
+    "AsyncAPI",
+    "Semoasa"
+  ],
+  "author": "Artem Yarygin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artx19/tendershins/issues"
+  },
+  "homepage": "https://github.com/artx19/tendershins#readme"
 }
