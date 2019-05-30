@@ -1,0 +1,14 @@
+{
+  "name": "tendershins",
+  "version": "1.0.0",
+  "bin": {
+    "tendershins": "./bin/tendershins"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.2",
+    "shins": "^2.3.2-0",
+    "widdershins": "^3.6.0"
+  }
+}
