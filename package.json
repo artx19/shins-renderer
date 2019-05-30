@@ -1,27 +1,27 @@
 {
-  "name": "tendershins",
-  "version": "1.0.2",
-  "description": "Render OpenAPI / Swagger / AsyncAPI / Semoasa definition to Slate HTML.",
-  "main": "src/tendershins.js",
-  "bin": {
+  "name":            "tendershins",
+  "version":         "1.0.2",
+  "description":     "Wrapper for shins generators",
+  "main":            "src/tendershins.js",
+  "bin":             {
     "tendershins": "./bin/tendershins"
   },
-  "dependencies": {
-    "fs-extra": "^7.0.0",
-    "path": "^0.12.7",
-    "shelljs": "^0.8.2",
-    "shins": "^2.3.2-0",
+  "dependencies":    {
+    "fs-extra":    "^7.0.0",
+    "path":        "^0.12.7",
+    "shelljs":     "^0.8.2",
+    "shins":       "^2.3.2-0",
     "widdershins": "^3.6.0"
   },
   "devDependencies": {},
-  "scripts": {
+  "scripts":         {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+  "repository":      {
     "type": "git",
-    "url": "git+https://github.com/artx19/tendershins.git"
+    "url":  "git+https://github.com/artx19/tendershins.git"
   },
-  "keywords": [
+  "keywords":        [
     "slate",
     "shins",
     "OpenAPI",
@@ -29,10 +29,10 @@
     "AsyncAPI",
     "Semoasa"
   ],
-  "author": "Artem Yarygin",
-  "license": "MIT",
-  "bugs": {
+  "author":          "Artem Yarygin",
+  "license":         "MIT",
+  "bugs":            {
     "url": "https://github.com/artx19/tendershins/issues"
   },
-  "homepage": "https://github.com/artx19/tendershins#readme"
+  "homepage":        "https://github.com/artx19/tendershins#readme"
 }
