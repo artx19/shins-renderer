@@ -33,7 +33,7 @@ class Tendershins {
             this.fs.copySync( this.logoPath, targetPath + '/source/images/logo.png' );
         }
 
-        this.shell.exit( 1 );
+        this.shell.exit( 0 );
     }
 
     renderWiddershins() {
